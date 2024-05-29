@@ -1,0 +1,129 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1c1c1c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    color: #37C567;
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.how-to-section, .system-section, .consultants-section, .supported-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.welcome-section {
+    margin-bottom: 40px;
+    text-align: center;
+    background: "image/bglp.png";
+}
+
+.support img {
+    width: 500px;
+}
+
+.creators {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.creator {
+    text-align: center;
+}
+
+.creator img {
+    width: 40%;
+}
+
+.system-features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.consultants {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.consultants img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+}
